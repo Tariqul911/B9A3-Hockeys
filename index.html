@@ -22,9 +22,9 @@
     </style>
 </head>
 
-<body class="font-manrope mx-32">
+<body class="font-manrope">
     <!-- header section -->
-    <header>
+    <header class="mx-32">
         <!-- Nav bar -->
         <nav>
             <div class="navbar mt-6">
@@ -151,7 +151,7 @@
         </div>
     </header>
 
-    <main>
+    <main class="mx-32">
         <!-- Professional Hockeys Club -->
         <section class="my-24">
             <div class="text-center p-7 border-y-2 border-dashed border-x-0 border-[#6a6a6e49]">
@@ -434,86 +434,144 @@
                     aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin.</p>
             </div>
             <!-- form container -->
-        <div class="flex gap-x-6 mt-12">
+            <div class="flex gap-x-6 mt-12">
                 <!-- left container -->
-            <div class=" p-10 shadow-sm  space-y-6 rounded-xl flex-1">
-                <div class="p-10 bg-[#bced6d42] rounded-xl">
-                    <img src="images/Group 1171275317.png" alt="">
-                    <p class="text-[#6a6a6e] font-normal">Phone Number : </p>
-                    <p class="font-extrabold text-lg">(+62) 123-321-543</p>
+                <div class=" p-10 shadow-sm  space-y-6 rounded-xl flex-1">
+                    <div class="p-10 bg-[#bced6d42] rounded-xl">
+                        <img src="images/Group 1171275317.png" alt="">
+                        <p class="text-[#6a6a6e] font-normal">Phone Number : </p>
+                        <p class="font-extrabold text-lg">(+62) 123-321-543</p>
+                    </div>
+                    <div class="p-10 bg-[#fddd5f56] rounded-xl">
+                        <img src="images/Group 1171275318.png" alt="">
+                        <p class="text-[#6a6a6e] font-normal">Phone Number : </p>
+                        <p class="font-extrabold text-lg">(+62) 123-321-543</p>
+                    </div>
+                    <div class="p-10 bg-[#629cf345] rounded-xl">
+                        <img src="images/Group 1171275321.png" alt="">
+                        <p class="text-[#6a6a6e] font-normal">Phone Number : </p>
+                        <p class="font-extrabold text-lg">(+62) 123-321-543</p>
+                    </div>
+
                 </div>
-                <div class="p-10 bg-[#fddd5f56] rounded-xl">
-                    <img src="images/Group 1171275318.png" alt="">
-                    <p class="text-[#6a6a6e] font-normal">Phone Number : </p>
-                    <p class="font-extrabold text-lg">(+62) 123-321-543</p>
-                </div>
-                <div class="p-10 bg-[#629cf345] rounded-xl">
-                    <img src="images/Group 1171275321.png" alt="">
-                    <p class="text-[#6a6a6e] font-normal">Phone Number : </p>
-                    <p class="font-extrabold text-lg">(+62) 123-321-543</p>
-                </div>
 
-            </div>
+                <!-- right container -->
+                <div class=" flex-1">
 
-            <!-- right container -->
-            <div class=" flex-1">
+                    <form class="flex flex-col space-y-4">
 
-                <form class="flex flex-col space-y-4">
+                        <!-- name and email -->
+                        <div class="flex gap-x-6">
+                            <div>
+                                <h2 class="font-bold text-xl pb-4">Your Name</h2>
+                                <input type="text" placeholder="Enter your full name"
+                                    class="input bg-gray-100 border-none rounded-lg w-[324px]" />
 
-                    <!-- name and email -->
-                    <div class="flex gap-x-6">
-                        <div> 
-                            <h2 class="font-bold text-xl pb-4">Your Name</h2>
-                            <input type="text" placeholder="Enter your full name"
-                                class="input bg-gray-100 border-none rounded-lg w-[324px]" />
+                            </div>
+                            <div>
+                                <h2 class="font-bold text-xl pb-4">Your Email</h2>
+                                <input type="email" placeholder="Enter your email"
+                                    class="input bg-gray-100 border-none rounded-lg w-[324px]" />
 
+                            </div>
                         </div>
+                        <!-- subject + phone number -->
+                        <div class="flex gap-x-6">
+                            <div>
+                                <h2 class="font-bold text-xl pb-4">Subject</h2>
+                                <input type="text" placeholder="Enter your subject"
+                                    class="input bg-gray-100 border-none rounded-lg w-[324px]" />
+                            </div>
+
+                            <div>
+                                <h2 class="font-bold text-xl pb-4">Phone Number</h2>
+                                <input type="text" placeholder="Enter your phone number"
+                                    class="input bg-gray-100 border-none rounded-lg w-[324px]" />
+                            </div>
+                        </div>
+
                         <div>
-                            <h2 class="font-bold text-xl pb-4">Your Email</h2>
-                            <input type="email" placeholder="Enter your email"
-                        class="input bg-gray-100 border-none rounded-lg w-[324px]" />
-
+                            <h2 class="font-bold text-xl pb-4">Message</h2>
+                            <textarea placeholder="Write your message"
+                                class="textarea bg-gray-100 border-none rounded-lg h-[370px] w-[672px]"></textarea>
                         </div>
-                    </div>
-                    <!-- subject + phone number -->
-                    <div class="flex gap-x-6">
-                        <div>
-                            <h2 class="font-bold text-xl pb-4">Subject</h2>
-                            <input type="text" placeholder="Enter your subject"
-                        class="input bg-gray-100 border-none rounded-lg w-[324px]" />
-                        </div>
-
-                    <div>
-                        <h2 class="font-bold text-xl pb-4">Phone Number</h2>
-                        <input type="text" placeholder="Enter your phone number"
-                        class="input bg-gray-100 border-none rounded-lg w-[324px]" />
-                    </div>
-                    </div>
-                    
-                   <div>
-                     <h2 class="font-bold text-xl pb-4">Message</h2>
-                    <textarea placeholder="Write your message"
-                        class="textarea bg-gray-100 border-none rounded-lg h-[370px] w-[672px]"></textarea>
-                   </div>
-                    <button class="btn bg-[#FF4240] text-white hover:bg-[#6a6a6e] font-bold rounded-lg w-[672px]">Send
-                        Message</button>
-                </form>
+                        <button
+                            class="btn bg-[#FF4240] text-white hover:bg-[#6a6a6e] font-bold rounded-lg w-[672px]">Send
+                            Message</button>
+                    </form>
+                </div>
             </div>
-        </div>
-        <!-- social media -->
-         <div class="text-center p-8 bg-[#6a6a6e0f] shadow-sm mt-12 rounded-xl">
-            <h2 class="font-extrabold text-2xl">Social Media</h2>
-            <div class="space-x-8 pt-5 text-2xl">
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-facebook-f"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-github"></i>
+            <!-- social media -->
+            <div class="text-center p-8 bg-[#6a6a6e0f] shadow-sm mt-12 rounded-xl">
+                <h2 class="font-extrabold text-2xl">Social Media</h2>
+                <div class="space-x-8 pt-5 text-2xl">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
             </div>
-         </div>
         </section>
     </main>
-    <footer>
 
+    <!-- Footer section -->
+    <footer class="bg-[#111111] text-white py-20 px-28 ">
+        <div class="grid grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-30 ">
+
+            <!-- Logo & About -->
+            <div>
+                <div class="flex items-center mb-6 font-extrabold text-2xl">
+                    <h2>Get In Touch</h2>
+
+                </div>
+                <p class="text-[#CFCFCF] leading-7 font-medium">
+                    Dit amet consectetur. Condimentum adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+                <p class="pt-4">
+                    <span class="text-[#FF4240] "><i class="fa-regular fa-envelope"></i></span>
+                    <span class="pl-4 font-medium">hockeys@support.com</span>
+                </p>
+                <p class="pt-4">
+                    <span class="text-[#FF4240] "><i class="fa-solid fa-phone"></i></span>
+                    <span class="pl-4 font-medium">(+62) 123-321-543</span>
+                </p>
+            </div>
+
+            <!-- Useful Links -->
+            <div class="pl-16">
+                <h3 class="text-lg font-bold mb-6">Company</h3>
+                <ul class="space-y-3 text-[#CFCFCF]">
+                    <li><a href="#" class="hover:text-[#B68C5A]">About us</a></li>
+                    <li><a href="#" class="hover:text-[#B68C5A]">Leadership</a></li>
+                    <li><a href="#" class="hover:text-[#B68C5A]">Careers</a></li>
+                    <li><a href="#" class="hover:text-[#B68C5A]">News & Article</a></li>
+                    <li><a href="#" class="hover:text-[#B68C5A]">Legal Notice</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Now -->
+            <div>
+                <h3 class="text-lg font-bold mb-6">Support</h3>
+                <p class="text-[#CFCFCF] mb-4 leading-7">
+                   Help Center
+                </p>
+                <p class="text-[#CFCFCF] mb-4">FAQ</p>
+                <p class="text-[#CFCFCF]">Ticket Support</p>
+                <p class="text-[#CFCFCF] mt-4">Contact Us</p>
+            </div>
+
+            <!-- Subscribe -->
+            <div>
+                <h3 class="text-lg font-bold mb-6">Services</h3>
+                <p class="text-[#CFCFCF] mb-4 leading-7">
+                    Academy
+                </p>
+                <p class="text-[#CFCFCF] mb-4">Group Lesson</p>
+                <p class="text-[#CFCFCF]">Private Lesson</p>
+                <p class="text-[#CFCFCF] mt-4">Hockeys for kids</p>
+                <p class="text-[#CFCFCF] mt-4">Hockeys for Adult</p>
+            </div>
+
+        </div>
     </footer>
 
 </body>
