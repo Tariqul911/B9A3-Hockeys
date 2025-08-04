@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's Website</title>
+    <!-- Tailwind and Daisy UI -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Manrope Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome link -->
+    <script src="https://kit.fontawesome.com/80f677af57.js" crossorigin="anonymous"></script>
+    <!-- Style -->
+    <style>
+        .font-manrope {
+            font-family: "Manrope", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="font-manrope mx-20">
+    <header>
+        <!-- Nav bar -->
+        <nav>
+            <div class="navbar mt-6">
+                <div class="navbar-start">
+                    <div class="font-extrabold text-4xl">
+                        <h3>Hockey<span class="text-[#FF4240]">’</span>s</h3>
+                    </div>
+                </div>
+                <div class="navbar-center hidden lg:flex font-normal  text-[#424247]">
+                    <ul class="menu menu-horizontal px-1">
+                        <li> <a class="text-[#FF4240] font-bold">Home</a> </li>
+                        <li> <a>About</a> </li>
+                        <li> <a>Pages</a> </li>
+                        <li> <a>Blog</a> </li>
+                        <li> <a>Contact</a> </li>
+                    </ul>
+                </div>
+                <div class="navbar-end">
+                    <i class="fa-solid fa-magnifying-glass pr-5 text-2xl"></i>
+                    <a class="btn bg-[#FF4240] font-bold text-white text-lg p-7 rounded-xl">Get Ticket</a>
+                </div>
+            </div>
+        </nav>
+        <!-- Carousel -->
+        <div class="my-12">
+            <div class="carousel">
+
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="images/1.png" class="w-full h-[500px]" />
+                    <!-- Overlay + Content + Buttons container -->
+                    <div class="absolute top-0 left-0 w-full h-full">     
+                        <!-- Text Content -->
+                        <div
+                            class="absolute top-0 left-0 w-full h-full flex flex-col items-end justify-end text-left text-white px-5 ">
+                            <div class="bg-black p-5 rounded-xl mr-6 mb-8">
+                                <h4 class="text-3xl md:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h4>
+                            <p class="max-w-xl font-medium">
+                                Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>turpis placerat dolor. Purus urna in sit nullam proin. 
+                            </p>
+                            </div> 
+                        </div>
+                        <!-- Slider Buttons -->
+                        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-between px-5">
+                            <a href="#slide4" class="btn btn-circle">❮</a>
+                            <a href="#slide2" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide 2 -->
+                <div id="slider-2" class="carousel-item relative w-full">
+                    <img src="images/2.png" class="w-full h-[500px]" />
+                    <!-- Overlay + Content + Buttons container -->
+                    <div class="absolute top-0 left-0 w-full h-full">
+                        <!-- Text Content -->
+                        <div
+                            class="absolute top-0 left-0 w-full h-full flex flex-col items-end justify-end text-left text-white px-5 ">
+                            <div class="bg-black p-5 rounded-xl mr-6 mb-8">
+                                <h4 class="text-3xl md:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h4>
+                            <p class="max-w-xl font-medium">
+                                Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>turpis placerat dolor. Purus urna in sit nullam proin. 
+                            </p>
+                            </div> 
+                        </div>
+                        <!-- Slider Buttons -->
+                        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-between px-5">
+                            <a href="#slide1" class="btn btn-circle">❮</a>
+                            <a href="#slide3" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="Images/3.png" class="w-full h-[500px]" />
+                    <!-- Overlay + Content + Buttons container -->
+                    <div class="absolute top-0 left-0 w-full h-full">
+                        <!-- Text Content -->
+                        <div
+                            class="absolute top-0 left-0 w-full h-full flex flex-col items-end justify-end text-left text-white px-5 ">
+                            <div class="bg-black p-5 rounded-xl mr-6 mb-8">
+                                <h4 class="text-3xl md:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h4>
+                            <p class="max-w-xl font-medium">
+                                Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>turpis placerat dolor. Purus urna in sit nullam proin. 
+                            </p>
+                            </div> 
+                        </div>
+                        <!-- Slider Buttons -->
+                        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-between px-5">
+                            <a href="#slide2" class="btn btn-circle">❮</a>
+                            <a href="#slide4" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- slide 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="images/4.png" class="w-full h-[500px]" />
+                    <!-- Overlay + Content + Buttons container -->
+                    <div class="absolute top-0 left-0 w-full h-full">
+                        <!-- Text Content -->
+                        <div
+                            class="absolute top-0 left-0 w-full h-full flex flex-col items-end justify-end text-left text-white px-5 ">
+                            <div class="bg-black p-5 rounded-xl mr-6 mb-8">
+                                <h4 class="text-3xl md:text-2xl font-extrabold mb-4">Meet all the heroes from the field</h4>
+                            <p class="max-w-xl font-medium">
+                                Dit amet consectetur. Condimentum dignissim adipiscing aliquam<br>turpis placerat dolor. Purus urna in sit nullam proin. 
+                            </p>
+                            </div> 
+                        </div>
+                        <!-- Slider Buttons -->
+                        <div class="absolute top-0 left-0 w-full h-full flex items-center justify-between px-5">
+                            <a href="#slide3" class="btn btn-circle">❮</a>
+                            <a href="#slide1" class="btn btn-circle">❯</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
